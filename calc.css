@@ -1,5 +1,5 @@
 body {
-    background-image: url("/passenger\ counter/station.jpg");
+    background-image: url("station.jpg");
     background-size: cover;
     display: grid;
     align-items: center;
