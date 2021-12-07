@@ -1,0 +1,54 @@
+body {
+    background-image: url("/passenger\ counter/station.jpg");
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+.container {
+    width: 29.9rem;
+    height: 26.8rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(247, 12, 12, 0.027);
+    
+    backdrop-filter: blur(5px);
+  }
+  
+p{
+    color:black ;
+
+}
+
+input{
+    font-size: 25px;
+    border-radius: 5px;
+    /* margin-top: 5px; */
+    border:solid 2px rgba(148, 148, 148, 0.274); 
+    border-width: 4px;
+    background-color:rgba(248, 248, 248, 0.041);
+    padding: 15px;
+    width:27.5rem;
+    
+}
+button{
+    font-weight: lighter ;
+    background-color: rgba(27, 141, 216, 0.164);
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    width: 115px;
+    border-radius: 5px;
+    padding: 30.5px;
+    
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+.keys{
+    /* border:solid 2px rgb(196, 0, 59); */
+    border-width: 4px;
+    background-color:rgba(245, 245, 245, 0.062);
+}

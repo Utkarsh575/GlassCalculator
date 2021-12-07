@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculator">
+
+            <input type="text" name="screen" id="screen">
+                
+
+            <div>
+                <table class="keys">
+                    <tr>
+                        <td><button>7</button></td>
+                        <td><button>8</button></td>
+                        <td><button>9</button></td>
+                        <td><button>/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>4</button></td>
+                        <td><button>5</button></td>
+                        <td><button>6</button></td>
+                        <td><button>x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>1</button></td>
+                        <td><button>2</button></td>
+                        <td><button>3</button></td>
+                        <td><button>-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>0</button></td>
+                        <td><button>C</button></td>
+                        <td><button>=</button></td>
+                        <td><button>+</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+      
+
+
+<script src="calc.js"></script>
+
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".container"), {
+        max: 25,
+        speed: 400
+        });
+        </script>
+  
+
+</body>
+</html>
